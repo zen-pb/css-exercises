@@ -3,22 +3,16 @@ body {
   font-family: sans-serif;
 }
 
+.title,
+.content,
+.button-container {
+  background: #e3f4ff;
+}
+
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
-}
-
-.title {
-  background: #e3f4ff;
-}
-
-.content {
-  background: #e3f4ff;
-}
-
-.button-container {
-  background: #e3f4ff;
 }
 
 button {
