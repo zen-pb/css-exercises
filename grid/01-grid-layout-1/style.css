@@ -5,6 +5,9 @@ html {
 }
 
 .container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: repeat(7, 1fr);
   text-align: center;
   height: 100%;
   padding: 16px;
